@@ -4,6 +4,7 @@ colorama
 requests
 argparse
 cookiejar
+pyfiglet
 
 
 

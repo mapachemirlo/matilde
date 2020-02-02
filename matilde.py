@@ -17,7 +17,14 @@ from pyfiglet import Figlet
 #reload(sys)
 #sys.setdefaultencoding('utf8')
 
-os.system('clear')
+sis_op = sys.platform
+sis_op = sis_op[:3]
+if sis_op == 'lin':
+    os.system('clear')
+elif sis_op == 'win':
+    os.system('cls')
+else:
+    pass
 
 custom_fig = Figlet(font='slant')
 print(custom_fig.renderText('MatildeInfo'))

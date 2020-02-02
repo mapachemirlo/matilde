@@ -1,0 +1,2 @@
+con python2 importar urllib, con python3 importar urllib.request (corregir el codigo de urlopen)
+export PYTHONIOENCODING=UTF-8

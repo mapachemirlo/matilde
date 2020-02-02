@@ -117,12 +117,12 @@ def main():
             print("\nNo se pudo generar el archivo html\n")
         
        
-        print("\n|========== RESUELVE A','AAAA','NS','SOA','MX','MF','MD','TXT ===========|\n")
-        consultas = ['A','AAAA','NS','SOA','MX','MF','MD','TXT'] #BUSCAR EN INTERNET CUALES MÁS TIPOS DE REGISTROS SE PUEDEN AGREGAR
+        print("\n|========== RESUELVE TIPOS DE CONSULTAS DNS ===========|\n")
+        consultas = ['A','AAAA','NS','SOA','MX','MF','MD','TXT','CNAME','MB','MG','MR','WKS','PTR','HINFO','AXFR','MAILB','MAILA'] 
         ip_dns = ['A']
         for cons in ip_dns:
             try:
-                dn = dns.resolver.query(parser.dominio, cons) # Como 2do parámetro puede ir 'ANY', pero no anda
+                dn = dns.resolver.query(parser.dominio, cons)
                 for ip in dn: 
                     print("La IP del dominio {} es: {}\n".format(parser.dominio, ip))
             except:

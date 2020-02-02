@@ -18,3 +18,9 @@ Ejecute:
 
 `python matilde.py -d dominio`
 
+# Nota
+Tal vez deba agregar utf-8 de la siguiente manera:
+`export PYTHONIOENCODING=UTF-8`
+
+Puede utilizar Python 2.* modificando el archivo matilde.py, remplazando la linea `importar urllib.request` por `importar urllib` y
+`urllib.request.urlopen` por `urllib.urlopen`.

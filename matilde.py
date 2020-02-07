@@ -6,7 +6,7 @@
 # Ejecutar con Python 3.*
 
 import requests
-import urllib.request
+import urllib
 import argparse
 import http.cookiejar as cookielib
 import dns.resolver

@@ -11,6 +11,8 @@ Clone el repositorio a su directorio local:
 
 Instale las dependencias:
 
+Ingrese al directorio `matilde` y ejecute:
+
 `pip install -r requirements.txt`
 
 Puede agregar el archivo `matilde.py` al $PATH para más comodidad.

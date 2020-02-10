@@ -22,6 +22,8 @@ Ejecute:
 
 `python matilde.py -d dominio`
 
+Ejemplo: `python matilde.py -d google.com`
+
 # Nota
 Tal vez deba agregar utf-8 de la siguiente manera:
 `export PYTHONIOENCODING=UTF-8`
